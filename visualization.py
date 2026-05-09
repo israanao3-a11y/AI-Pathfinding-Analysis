@@ -84,7 +84,10 @@ def plot_pie_charts(stats):
 
     
     plt.savefig('radar_chart.png')
+    plt.show()
     plt.savefig('pie_charts.png')
+    plt.show()
     plt.savefig('performance_comparison.png')
+    plt.show()
     plt.savefig('boxplots.png')
     plt.show()
