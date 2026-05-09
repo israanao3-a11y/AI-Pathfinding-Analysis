@@ -35,6 +35,12 @@ Git/GitHub : Pour le versioning et le déploiement du projet.
 
 📂 Structure du Projet
 main.py : Point d'entrée pour lancer les expérimentations.
+# Visualisation des Résultats
+
+![Radar Chart](./radar_chart.png)
+![Pie Charts](./pie_charts.png)
+![Box Plots](./boxplots.png)
+![Comparison](./performance_comparison.png)
 
 algorithms.py : Implémentation des logiques de recherche.
 
