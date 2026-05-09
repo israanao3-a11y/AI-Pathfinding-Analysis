@@ -31,6 +31,8 @@ def plot_radar_chart(df):
     ax.set_xticklabels(categories)
     plt.title('Comparaison des Performances (Normalisée)')
     plt.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))
+
+    plt.savefig('radar_chart.png')
     plt.show()
 
 # 2. Comparaison des moyennes par Bar Charts
@@ -51,6 +53,7 @@ def plot_performance_comparison(stats):
         axes[i].grid(True, axis='y', linestyle='--', alpha=0.7)
 
     plt.tight_layout()
+    plt.savefig('performance_comparison.png')
     plt.show()
 
 # 3. Diagrammes en boîtes (Boxplots) pour la distribution
@@ -67,6 +70,7 @@ def plot_boxplots(df):
         axes[i].grid(True, linestyle='--', alpha=0.6)
 
     plt.tight_layout()
+    plt.savefig('boxplots.png')
     plt.show()
 
 # 4. Diagrammes circulaires (Pie Charts)
@@ -81,13 +85,6 @@ def plot_pie_charts(stats):
         means = stats[(metric, 'mean')]
         axes[i].pie(means, labels=means.index, autopct='%1.1f%%', startangle=140)
         axes[i].set_title(f'Répartition de : {metric}')
-
-    
-    plt.savefig('radar_chart.png')
-    plt.show()
     plt.savefig('pie_charts.png')
     plt.show()
-    plt.savefig('performance_comparison.png')
-    plt.show()
-    plt.savefig('boxplots.png')
-    plt.show()
+    plt.close()
