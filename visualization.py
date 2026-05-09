@@ -82,4 +82,6 @@ def plot_pie_charts(stats):
         axes[i].pie(means, labels=means.index, autopct='%1.1f%%', startangle=140)
         axes[i].set_title(f'Répartition de : {metric}')
 
+    
+    plt.savefig('radar_chart.png')
     plt.show()
