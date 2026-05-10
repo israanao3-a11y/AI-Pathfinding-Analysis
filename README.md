@@ -46,4 +46,6 @@ Suivez ces étapes pour cloner le projet et générer les visualisations sur vot
    
 
    ```bash
-   git clone [https://github.com/meryem-bouayadi/Project-AI.git](https://github.com/meryem-bouayadi/Project-AI.git)
+   
+# 1. Cloner le projet
+git clone https://github.com/Israanao3-a11y/AI-Pathfinding-Analysis.git
