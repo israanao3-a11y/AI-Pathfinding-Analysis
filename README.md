@@ -43,13 +43,7 @@ Une vue à 360 degrés combinant plusieurs variables pour évaluer l'équilibre 
 Suivez ces étapes pour cloner le projet et générer les visualisations sur votre machine :
 
 1. **Cloner le projet :**
-2. Installer les dépendances :
+   
 
-Bash
-pip install matplotlib seaborn pandas numpy
-3.Lancer l'analyse :
-
-Bash
-python main.py
    ```bash
    git clone [https://github.com/meryem-bouayadi/Project-AI.git](https://github.com/meryem-bouayadi/Project-AI.git)
